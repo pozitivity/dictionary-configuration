@@ -1,11 +1,14 @@
 baseUrl: http://localhost
 services:
-  user-management:
+  user-manager:
     port: 3000
     docsUrl: api-docs/users
-  swagger-service:
-    port: 3001
+  swagger-manager:
+    port: 3010
     docsUrl: api-docs
-  dictionary-service:
-    port: 3002
-    docsUrl: api-docs/dictionary
+  wordset-manager:
+    port: 3020
+    docsUrl: api-docs/wodrset-management
+  lingualeo-api-manager:
+    port: 3030
+    docsUrl: api-docs/lingualeo-api
