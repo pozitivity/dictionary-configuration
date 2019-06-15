@@ -12,3 +12,6 @@ services:
   lingualeo-api-manager:
     port: 3030
     docsUrl: api-docs/lingualeo-api
+  text-to-speech-manager:
+    port: 3040
+    docsUrl: api-docs/text-to-speech
